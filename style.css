@@ -159,7 +159,13 @@ strong {
 
 .attribution {
   padding: 1rem;
+  font-size: 0.6875rem;
+  text-align: center;
   background-color: var(--white);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 @media (min-width: 48rem) {
