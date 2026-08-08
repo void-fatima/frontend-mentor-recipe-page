@@ -2,75 +2,75 @@
 
 # 🍳 Recipe Page
 
-یک صفحه رسپی تمیز، واکنش‌گرا و دسترس‌پذیر؛ پیاده‌سازی‌شده با HTML و CSS خالص.
+A clean, responsive, and accessible recipe page built with pure HTML and CSS.
 
 [![HTML5](https://img.shields.io/badge/HTML5-semantic-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-responsive-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![Frontend Mentor](https://img.shields.io/badge/Frontend_Mentor-challenge-3F54A3?style=for-the-badge&logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
 
-[مشاهده چالش](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm) · [مخزن GitHub](https://github.com/void-fatima/frontend-mentor-recipe-page)
+[View Challenge](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm) · [GitHub Repository](https://github.com/void-fatima/frontend-mentor-recipe-page)
 
 </div>
 
 ---
 
-## پیش‌نمایش
+## Preview
 
-![نمای دسکتاپ صفحه رسپی](./design/desktop-design.jpg)
+![Desktop preview of the recipe page](./design/desktop-design.jpg)
 
-این پروژه راه‌حل چالش **Recipe Page** از Frontend Mentor است. هدف، ساخت صفحه‌ی دستور پخت املت بر اساس طرح مرجع و تمرین ساختار معنایی HTML، طراحی Mobile-first و Responsive Design بوده است.
+This project is a solution to the **Recipe Page** challenge on Frontend Mentor. The goal was to recreate the provided omelette recipe design while practicing semantic HTML, mobile-first development, and responsive web design.
 
-## ویژگی‌ها
+## Features
 
-- طراحی واکنش‌گرا برای موبایل و دسکتاپ
-- پیاده‌سازی Mobile-first با یک breakpoint مشخص
-- استفاده از تگ‌های معنایی مانند `main`، `article`، `header`، `section`، `aside` و `footer`
-- جدول معنایی برای نمایش اطلاعات تغذیه‌ای
-- استفاده از فونت‌های محلی و بدون نیاز به اینترنت
-- رنگ‌بندی مدیریت‌شده با CSS Custom Properties
-- نام‌گذاری کلاس‌ها به سبک BEM
-- بدون JavaScript، فریم‌ورک یا وابستگی خارجی
+- Responsive layout for mobile and desktop screens
+- Mobile-first implementation with a clear breakpoint
+- Semantic elements such as `main`, `article`, `header`, `section`, `aside`, and `footer`
+- Semantic table for nutritional information
+- Locally hosted fonts with no external font dependency
+- Centralized color palette using CSS custom properties
+- BEM-style class naming
+- No JavaScript, frameworks, or external dependencies
 
-## تکنولوژی‌های استفاده‌شده
+## Technologies Used
 
-| تکنولوژی | کاربرد |
+| Technology | Purpose |
 |---|---|
-| HTML5 | ساختار معنایی محتوا |
-| CSS3 | استایل‌دهی، فاصله‌گذاری و طراحی واکنش‌گرا |
-| `@font-face` | بارگذاری فونت‌های محلی Outfit و Young Serif |
-| CSS Variables | مدیریت یکپارچه پالت رنگ |
-| Media Query | تغییر چیدمان در نمایشگرهای بزرگ‌تر |
+| HTML5 | Semantic content structure |
+| CSS3 | Styling, spacing, and responsive layout |
+| `@font-face` | Loading the local Outfit and Young Serif fonts |
+| CSS Custom Properties | Centralized color management |
+| Media Queries | Adapting the layout for larger screens |
 
-## ساختار پروژه
+## Project Structure
 
 ```text
 frontend-mentor-recipe-page/
 ├── assets/
 │   ├── fonts/
 │   │   ├── outfit/
-│   │   │   ├── static/                   # وزن‌های ثابت فونت Outfit
+│   │   │   ├── static/                   # Static Outfit font weights
 │   │   │   ├── Outfit-VariableFont_wght.ttf
-│   │   │   ├── OFL.txt                   # مجوز فونت
+│   │   │   ├── OFL.txt                   # Font license
 │   │   │   └── README.txt
 │   │   └── young-serif/
 │   │       ├── YoungSerif-Regular.ttf
-│   │       └── OFL.txt                   # مجوز فونت
+│   │       └── OFL.txt                   # Font license
 │   └── images/
-│       ├── favicon-32x32.png             # آیکن تب مرورگر
-│       └── image-omelette.jpeg           # تصویر اصلی رسپی
+│       ├── favicon-32x32.png             # Browser favicon
+│       └── image-omelette.jpeg           # Main recipe image
 ├── design/
-│   ├── desktop-design.jpg                # طرح مرجع دسکتاپ
-│   └── mobile-design.jpg                 # طرح مرجع موبایل
-├── AGENTS.md                             # راهنمای دستیارهای کدنویسی
-├── CLAUDE.md                             # راهنمای ابزارهای مبتنی بر Claude
-├── index.html                            # ساختار و محتوای صفحه
-├── preview.jpg                           # پیش‌نمایش اصلی چالش
-├── README.md                             # مستندات اصلی مخزن
-├── style-guide.md                        # رنگ‌ها، فونت‌ها و مشخصات طراحی
-└── style.css                             # تمام استایل‌های صفحه
+│   ├── desktop-design.jpg                # Desktop design reference
+│   └── mobile-design.jpg                 # Mobile design reference
+├── AGENTS.md                             # Guidance for coding assistants
+├── CLAUDE.md                             # Guidance for Claude-based tools
+├── index.html                            # Page structure and content
+├── preview.jpg                           # Original challenge preview
+├── README.md                             # Project documentation
+├── style-guide.md                        # Design colors and typography
+└── style.css                             # Complete page styling
 ```
 
-## ساختار صفحه
+## Page Structure
 
 ```text
 body
@@ -91,36 +91,36 @@ body
 └── footer.attribution
 ```
 
-## اجرای پروژه
+## Getting Started
 
-این پروژه به نصب هیچ پکیجی نیاز ندارد.
+This project does not require any packages or build tools.
 
-1. مخزن را clone کنید:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/void-fatima/frontend-mentor-recipe-page.git
    ```
 
-2. وارد پوشه پروژه شوید:
+2. Enter the project directory:
 
    ```bash
    cd frontend-mentor-recipe-page
    ```
 
-3. فایل `index.html` را مستقیماً در مرورگر باز کنید.
+3. Open `index.html` directly in your browser.
 
-برای اجرای پروژه با Live Server نیز می‌توانید در VS Code روی `index.html` راست‌کلیک کرده و **Open with Live Server** را انتخاب کنید.
+Alternatively, if you use VS Code, right-click `index.html` and select **Open with Live Server**.
 
-## رویکرد طراحی
+## Design Approach
 
-استایل‌های پایه ابتدا برای نمایشگر موبایل نوشته شده‌اند. در عرض‌های `48rem` و بیشتر، media query ظاهر دسکتاپ را فعال می‌کند:
+The base styles are written for mobile screens first. At widths of `48rem` and above, a media query activates the desktop layout:
 
-- پس‌زمینه‌ی صفحه به رنگ کرم تغییر می‌کند.
-- کارت رسپی در مرکز صفحه قرار می‌گیرد.
-- کارت دارای حداکثر عرض، padding و گوشه‌های گرد می‌شود.
-- تصویر اصلی نیز گوشه‌های گرد می‌گیرد.
+- The page background changes to a light cream color.
+- The recipe card is centered on the page.
+- The card receives a maximum width, internal spacing, and rounded corners.
+- The main image also receives rounded corners.
 
-رنگ‌های اصلی پروژه داخل `:root` تعریف شده‌اند تا تغییر و نگهداری آن‌ها ساده باشد:
+The project's main colors are defined in `:root`, making them easy to maintain and update:
 
 ```css
 :root {
@@ -134,39 +134,39 @@ body
 }
 ```
 
-## نکات آموخته‌شده
+## What I Learned
 
-- تفاوت بین محتوا در HTML و ظاهر در CSS
-- انتخاب تگ مناسب بر اساس معنای محتوا
-- ساخت لیست‌های مرتب و نامرتب
-- ساخت جدول دسترس‌پذیر با `th` و `scope="row"`
-- درک Box Model و مدیریت `margin`، `padding` و `border`
-- استفاده از واحدهای نسبی مانند `rem` و `%`
-- بارگذاری فونت محلی با `@font-face`
-- پیاده‌سازی رابط واکنش‌گرا با media query
+- Separating content in HTML from presentation in CSS
+- Choosing semantic elements based on the meaning of the content
+- Creating ordered and unordered lists
+- Building an accessible table with `th` and `scope="row"`
+- Understanding the box model and managing `margin`, `padding`, and `border`
+- Using relative units such as `rem` and `%`
+- Loading local fonts with `@font-face`
+- Building a responsive interface with media queries
 
-## دسترس‌پذیری
+## Accessibility
 
-- تصویر اصلی دارای متن جایگزین توصیفی است.
-- ترتیب عنوان‌ها از `h1` به `h2` ساختار منطقی صفحه را حفظ می‌کند.
-- اطلاعات تغذیه‌ای در یک جدول معنایی قرار گرفته‌اند.
-- `scope="row"` ارتباط عنوان هر ردیف با مقدار آن را برای screen reader مشخص می‌کند.
-- کنتراست رنگ‌ها مطابق پالت ارائه‌شده در چالش در نظر گرفته شده است.
+- The main image includes descriptive alternative text.
+- The heading order from `h1` to `h2` preserves a logical document structure.
+- Nutritional information is presented in a semantic table.
+- `scope="row"` connects each row heading to its value for screen readers.
+- Color contrast follows the palette provided with the challenge.
 
-## منابع
+## Resources
 
 - [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
 - [MDN Web Docs — HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [MDN Web Docs — CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-## سازنده
+## Author
 
-ساخته‌شده توسط [@void-fatima](https://github.com/void-fatima) به‌عنوان بخشی از تمرین‌های Frontend Mentor.
+Built by [@void-fatima](https://github.com/void-fatima) as part of a Frontend Mentor learning challenge.
 
 ---
 
 <div align="center">
 
-اگر این پروژه برایتان مفید بود، خوشحال می‌شوم به آن ⭐ بدهید.
+If you found this project useful, consider giving it a ⭐.
 
 </div>
