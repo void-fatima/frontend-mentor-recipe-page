@@ -170,3 +170,7 @@ Built by [@void-fatima](https://github.com/void-fatima) as part of a Frontend Me
 If you found this project useful, consider giving it a ⭐.
 
 </div>
+
+---
+
+**Author:** Fatima
